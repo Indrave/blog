@@ -2,6 +2,7 @@ package com.hfutse.model;
 
 import javax.persistence.*;
 import java.util.Date;
+//import  com.hfutse.model.UserEntity;
 
 /**
  * Author Indrave
@@ -14,6 +15,18 @@ public class BlogEntity {
     private String tittle;
     private String content;
     private Date pubDate;
+
+//    public UserEntity getUserByUserId() {
+//        return userByUserId;
+//    }
+//
+//    public void setUserByUserId(UserEntity userByUserId) {
+//        this.userByUserId = userByUserId;
+//    }
+//
+//    private UserEntity userByUserId;
+
+
 
     @Id
     @Column(name = "id", nullable = false)
